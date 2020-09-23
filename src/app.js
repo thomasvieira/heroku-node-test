@@ -10,6 +10,6 @@ app.get("/", (request, response) => {
   return response.json({Message: "Ok! Server Online"});
 }); //DONE
 
-console.log("Server Online On Port 3333");
+console.log("Rocket Launched(server online)");
 
 module.exports = app;
